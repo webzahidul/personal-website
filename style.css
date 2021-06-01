@@ -1,0 +1,64 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.name-color{
+    color:indianred;
+}
+.about-color{
+    color:indianred; 
+}
+h1{
+   font-size:60px;
+   line-height:10px;
+}
+p{
+    font-size:30px;
+    color:darkgrey
+}
+
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:3%;
+}
+#hire{
+    background-color: orangered;
+    color:white;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-size:15px;
+    font-weight:bold;
+}
+.half-width img{
+    width:100%;
+}
+#bio{
+    background-color: orangered;
+    color:white;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-size:15px;
+    font-weight:bold; 
+}
+.tree-box{
+    width:100%;
+    float:left;
+    background-color:lightsteelblue;
+    height:800px;
+    margin:20px 30px;
+    text-align: center;
+}
+.card{
+    float: left;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,);
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px 30px;
+    
+    
+    
+}
