@@ -1,12 +1,10 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
-.name-color{
+#name-color{
     color:indianred;
 }
-.about-color{
-    color:indianred; 
-}
+
 h1{
    font-size:60px;
    line-height:10px;
@@ -41,7 +39,7 @@ p{
     font-size:15px;
     font-weight:bold; 
 }
-.tree-box{
+.three-box{
     width:100%;
     float:left;
     background-color:lightsteelblue;
@@ -62,7 +60,40 @@ p{
 section{
     padding-bottom: 40px;
     height:500px;
-}
-.footer{
+    border-radius: 5px;
     
 }
+.box-area{
+   padding: 40px 10px;
+}
+.solid-box img{
+    width:60%;
+    padding: 60px 250px;
+}
+
+#chat{
+    background-color: orangered;
+    color:white;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-size:15px;
+    font-weight:bold; 
+    margin-right: 30px;
+ 
+}
+.solid-box{
+    position: relative;
+        display: inline-block;
+}
+.solid-box .text-position{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    color:white;
+    text-align: center;
+}
+
+
